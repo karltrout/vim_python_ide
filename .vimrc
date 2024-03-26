@@ -67,3 +67,9 @@ set background=dark
 colorscheme solarized
 set nu " turn on line numbers
 set laststatus=2 " used for powerline to show statusline in all windows
+" window splitting
+set splitbelow
+set splitright
+" mark extra white space as bad
+:highlight BadWhitespace ctermfg=16 ctermbg=9 guifg=#000000 guibg=#F8F8F0
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
