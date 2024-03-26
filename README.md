@@ -4,13 +4,13 @@
 
 * Plug-in managers:
 Vundle: https://github.com/VundleVim/Vundle.vim
-** Reqirements: 
-    git, curl
+    - Reqirements: git, curl
 
-** Instalation:
+    - Instalation:
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-** Configuration:
+    - Configuration:
+
     edit ~/.vimrc as metioned in the README.md of Vundle. a copy is located here ./.vimrc
     Note: there is a Plugin for a local file install uncommented, it throws an error. I have comented it out.
 
@@ -38,6 +38,6 @@ Vundle: https://github.com/VundleVim/Vundle.vim
         
         Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
-** Other things to Explore:
+- Other things to Explore:
     * netrw: https://www.vim.org/scripts/script.php?script_id=1075
     * git for NERDTree: https://github.com/Xuyuanp/nerdtree-git-plugin
