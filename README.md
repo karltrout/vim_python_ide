@@ -2,6 +2,12 @@
 
 ## I want to configure Vim so that I can use it to develop python scripts. THis is what I have found.
 
+## NOTE: this uses the color scheme solorized from https://ethanschoonover.com/solarized/
+## your Terminal emulator should also be set to use this color scheme for this to look good! 
+
+## NOTE: you must install the python package flake8 for code checking to work
+``` pyton3 -m pip install flake8 ```
+
 * Plug-in managers:
 Vundle: https://github.com/VundleVim/Vundle.vim
     - Reqirements: git, curl
