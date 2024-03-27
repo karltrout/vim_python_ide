@@ -44,6 +44,12 @@ Vundle: https://github.com/VundleVim/Vundle.vim
         
         Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
+    nerdtree-git-plugin:
+        mark files in NERDTree with git symbols.
+        
+        Plugin 'Xuyuanp/nerdtree-git-plugin'
+        Plugin 'ryanoasis/vim-devicons'
+
 ## USAGE
 NERDTree: \<CR-n\> (ctrl + n) will bring up the tree in the left hand window
 
@@ -53,4 +59,3 @@ Git: type :Git or :G and command. example: `:G status`
 
 - Other things to Explore:
     * netrw: https://www.vim.org/scripts/script.php?script_id=1075
-    * git for NERDTree: https://github.com/Xuyuanp/nerdtree-git-plugin
