@@ -6,7 +6,7 @@
 ## your Terminal emulator should also be set to use this color scheme for this to look good! 
 
 ## NOTE: you must install the python package flake8 for code checking to work
-``` pyton3 -m pip install flake8 ```
+``` python3 -m pip install flake8 ```
 
 * Plug-in managers:
 Vundle: https://github.com/VundleVim/Vundle.vim
@@ -19,7 +19,11 @@ Vundle: https://github.com/VundleVim/Vundle.vim
 
     edit ~/.vimrc as metioned in the README.md of Vundle. a copy is located here ./.vimrc
     Note: there is a Plugin for a local file install uncommented, it throws an error. I have comented it out.
-
+    Note: when you run vim for the first time there will be erros as the plugins in the .vimrc file have not been installed. 
+   run ```python3 test.py```
+   in the vim editor window run ```:PluginInstall```
+   this will install all the nesisary plugins.
+   
 * Plug-ins for Vundle:
     Jedi-vim:
         allows code completion for python in Vim
